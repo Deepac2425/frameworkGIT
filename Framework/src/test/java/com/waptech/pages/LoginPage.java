@@ -10,6 +10,7 @@ public class LoginPage {
 		this.driver=ldriver;
 	}
 	
+	// New update from Deepa on Login class
 	@FindBy(name="firstName") WebElement un;
 	@FindBy(name="lastName") WebElement pwd;
 	@FindBy(xpath="//input[@type='submit']") WebElement loginButton;
