@@ -20,7 +20,7 @@ public class ExcelDataProvider {
 		return wb.getSheetAt(sheetIndex).getRow(row).getCell(col).getStringCellValue();
 	}
 
-	public String getStringData(String sheetIndex, int row, int col) {
+	public String getStringData(String sheetIndex, int row,int col) {
 		return wb.getSheet(sheetIndex).getRow(row).getCell(col).getStringCellValue();
 	}
 
